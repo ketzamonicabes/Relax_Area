@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    padding: 0;
+    cursor: pointer;
+    background-color: #FCFCFC;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+ul,li{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+img{
+    display:block;
+    width:100%;
+}
