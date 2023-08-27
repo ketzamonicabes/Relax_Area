@@ -1,0 +1,597 @@
+.headerpage{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height:auto;
+    margin-left:60px;
+    margin-right: 60px;
+    transition:  0.5s ease;
+    overflow: hidden;
+}
+
+.title-intro{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.image-logo{
+    margin-bottom:0px;
+    height: 120px;
+    width: 100px;
+    object-fit: cover;
+}
+.quote-header{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+.outside-title{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0px;
+    margin-top:30px;
+    height: 420px;
+    background-color: #101010e8;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.title-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height:210px ;
+    width: 1218px;
+}
+.webname{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width:450px;
+    height:300px;
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+    color:white;
+    line-height: 90px;
+    font-size: 80px;  
+    overflow: hidden;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    writing-mode: vertical-lr;
+    color:white;
+    padding-top:0px;
+    margin-top:0px;
+    padding-right:75px;
+    padding-left:160px;
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+    height: 100%;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    color:white;   
+    padding-top:15px;
+    font-size: 100px;
+    padding-left: 60px;
+}
+.logan{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 20px;
+    border:1px solid white;
+    width:570px;
+    height:42px;
+    font-size:40px;
+    margin-top:15px;
+    color:rgba(255, 255, 255, 0.836);
+    font-size: 25px;
+    font-weight: 500;
+    margin-left:10px;
+    font-family: 'Inconsolata', monospace;
+}
+.image-tile{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 100px;
+    object-fit: fill;
+    overflow: hidden;
+    margin-top:20px;
+    border: 2px solid rgba(255, 255, 255, 0.836)
+}
+.bodypage{
+    margin-top: 100px;
+    height: 645px;
+    overflow: hidden;
+    background-image: url("https://i.pinimg.com/564x/93/14/db/9314dbd90de3ecfb845b2ee7ee8a5c2c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-content{
+    width:750px;
+    height:450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap:25px;
+}
+.small-content{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.one{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;   
+}
+.hour{
+    margin-left: 30px;
+    color:white;
+    height:80px;
+    width: auto ;
+    font-size: 65px;
+    font-family: 'Orbitron', sans-serif;
+}
+.minute{
+    margin-left: 35px;
+    font-size: 30px;
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+}
+.date{
+    margin-left: 10px;
+    margin-top:20px;
+    font-size: 25px;
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+}
+.two{
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    overflow: hidden;
+}
+.fix{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.three{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+   
+}
+.iframe-cinema{
+    border:1px solid white;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    height:130px;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 10px;
+}
+.img-music{
+    margin-left:15px;
+    border: 1px solid white;
+    object-fit: cover;
+    width:100px;
+    height: 170px;
+    margin-top:20px;
+}
+.letter{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75px;
+    margin-top:16px;
+    font-size: 14px;
+    font-weight: 600px;
+    color:white;
+    font-family: 'Righteous', cursive;   
+}
+.effect{
+    margin-left:10px;
+    transition: padding-left 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+.five{
+    display:grid;
+    grid-template-columns: 12px 176px 12px; 
+}
+.inside-ci{
+    display:grid;
+    grid-template-rows:12px 176px 12px ;
+}
+.inside-circle{
+    border-radius:100%;
+    border:1px solid white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  center;
+    height:176px;
+    width:100%;
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+/* design music room */
+.music-room{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap:10px;
+    height:100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+.mucsic-column1{
+    margin-left: 12px;
+    height:643px;
+    width: 317px;
+    position:fixed;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap:12px;
+}
+.mucsic-comeback{
+    margin-top:8px;
+    background-color: #181818;
+    height: 112px;
+    border-radius:8px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: 700;
+
+}
+.mucsic-comeback-button{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height:40px;
+    width: 269px;
+    column-gap: 30px;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;   
+}
+.music-display{
+    background-color: #181818;
+    height: 505px;
+    border-radius:8px;
+}
+.music-column2{
+    background-color: black;
+    margin-top:8px;
+    margin-bottom:9px;
+    margin-left:337px;
+    border-radius:8px;
+    height:auto;
+    width: 1025px;
+}
+.music-control{
+    position: fixed;
+    background-color: black;
+    height: 64px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;  
+    opacity: 0.7; 
+}
+.music-content{
+    padding-left:24px;
+    border-top-left-radius: 8px;
+    height:auto;
+    width:100%;
+    background-color: #181818;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top:72px;
+    font-size: 24px;
+    color:white;
+    font-family: 'Righteous', cursive;   
+}
+.music-list1{
+    display:flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-items: stretch;
+    column-gap: 24px;
+    width: 100%;
+    height: 267px;    
+}
+.music-play{
+    display:flex;
+    flex-direction: column;
+    width:176px;
+    background-color: #232323;
+    height:100% ;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.music-image{
+    margin: 16px;
+    object-fit: fill;
+    height:144px;
+    border-radius: 10px;
+    width: 144px;
+    background-color: aquamarine;
+    border: none;
+}
+.music-title{
+    margin:0px 16px;
+    margin-bottom:4px;
+    color:white;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.music-desribe{
+    margin: 0px 16px;
+    margin-bottom:16px;
+    color:white;
+    font-size: 17px;
+    font-weight: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.music-intro{
+    height:274px;
+    width: 100%;
+    background-color: #181818;
+    color:white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    z-index: 9999;
+}
+.minh{
+    font-size: 50px;
+    position: absolute;
+    margin-top:120px;
+    margin-left:100px;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    color:rgba(0, 128, 0, 0.363);
+}
+.iframe-music{
+    border: none;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-left:8px;
+    margin-right:2px;
+    height:450px;
+}
+
+/* đây là phần design movie */
+.cinema-menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    height:643px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.cinema-home{
+    color: white;
+    margin-top:130px;
+    height:80px;
+    width:100%;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.cinema-home:hover{
+    color: black;
+    background-color: rgba(248, 246, 246, 0.87);
+    border-left: 6px solid rgba(187, 0, 0, 0.973);
+}
+.cinema-home:active{
+    background-color: white;
+}
+.new{
+    font-size: 30px;
+    color:white;
+    height:80px;
+    width:100%;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.new:hover{
+    color:black;
+    background-color: rgb(155, 154, 154);
+    border-left: 6px solid rgba(187, 0, 0, 0.973);
+}
+.new:active{
+    background-color: rgb(243, 211, 211);
+}
+.cinema-content{
+    color:none;
+    border-radius:0px;
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.911);
+    width:1366px;
+    height: 643px;
+    transition: ease-in;
+}
+.cinema-intro{
+    margin-left:100px;
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 613px;
+    width: 544px;
+    font-size: 30px;
+    box-shadow:10px 0px 30px 5px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.678), transparent);
+}
+.cinema-image{
+    object-fit: cover;
+    width: 723px;
+    height: 643px;
+    background-color: blueviolet;
+    
+}
+.cinema-logo{
+    height: 60px;
+    color:red;
+    font-size: 50px;  
+    font-weight: 600;
+}
+.cinema-name{
+    font-size: 90px;
+    line-height: 100px;
+    color:white;
+    font-weight: 500;
+    padding-bottom: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+.cinema-infor{
+    margin-left:8px;
+    color:white;
+    word-spacing: 3px;
+    font-size:20px ;
+    line-height: 35px;
+    font-family: 'PT Sans', sans-serif;
+}
+.offcanva-cine{
+    width: 100%;
+    overflow-x: auto; 
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    height: 0px; 
+    z-index: 1000; 
+    display: flex;
+    transition: 0.3s ease-in-out;
+}
+.scroll-cine{
+    display: flex;
+    flex-direction: row;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    column-gap: 20px; 
+    white-space: nowrap;
+}
+.offcanva-cine::-webkit-scrollbar {
+    width: 1px;
+}
+.movie{
+    width: 200px;
+    height: 100%;
+    border: 1px solid white;
+    object-fit: cover;
+}
+.list-cine{
+    width: 100%;
+    overflow-x: auto; 
+    height: 643px; 
+    background-color: aqua;
+    display: flex;
+    overflow-y: hidden;
+    transition: 0.5s ease-in-out;
+}
+.list-cine::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+.list-cine::-webkit-scrollbar {
+    width: 2px;
+    background-color: #ece3e3;
+}
+.list-cine::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #817d7d;
+}
+.list-cine::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+.six{
+    background-color: #C8C5BC;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+    row-gap: 20px;
+    
+}
+.six:hover{
+    box-shadow: 5px 10px 5px rgba(4, 10, 90, 0.5),
+              -5px -10px 8px rgba(0, 0, 0, 0.5),
+              -5px 10px 8px rgba(0, 0, 0, 0.5),
+              5px -10px 5px rgba(0, 0, 0, 0.5);
+}
+.image-personal{
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
+.intro-personal{
+    font-weight: 500;
+    font-size: 20px;
+}
+.extra{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 8px;
+}
+.third-name{
+    color:white;
+    margin-top:10px;
+    font-size: 35px;
+}
